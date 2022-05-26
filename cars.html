@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+</head>
+</head>
+<body>
+    <nav class="container-fluid navbar navbar-expand-sm navbar-light" id="nav">
+        <div class="col-3 ml-3 mb-md-5">
+          <img src="logo.png" class="navbar-brand">
+      </div>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#GrandPix">
+          <span class="navbar-toggler-icon" id="toggle" onclick="toggle()"></span>
+        </button>
+        <div class="collapse navbar-collapse mt-5" id="GrandPix" >
+          <ul class="navbar-nav">
+              <li class="nav-item col-3">
+                <form action="home.html">
+                  <button type="submit" class="nav-link text-dark"   id="navitem1"  onclick="nav1()"><span id="text1">Home</span></button>
+                </form>
+              </li>
+              <li class="nav-item col-3">
+                  <form action="cars.html">
+                    <button type="submit" class="nav-link text-dark"id="navitem2"  onclick="nav2()"><span id="text2">Cars</span></button>
+                  </form>
+                
+              </li>
+              <li class="nav-item col-3">
+                <button type="button" class="nav-link text-dark"  id="navitem3"  onclick="nav3()"><span id="text3">Models</span></button>
+              </li>
+              <li class="nav-item col-3">
+                <button type="button" class="nav-link text-dark"  id="navitem4"  onclick="nav4()"><span id="text4">Purchase</span></button>
+              </li>
+              <li class="nav-item col-3">
+                <button type="button" class="nav-link text-dark"  id="navitem5"  onclick="nav5()"><span id="text5">About Us</span></button>
+                </li>
+            </ul>
+          </div>
+      </nav>
+
+      <div class="container mt-3">
+          <div class="row">
+              <div class="col-3 text-center" id="text9">
+                  CAR CATALOGUE
+              </div>
+          </div>
+      </div>
+
+       <div class="container-fluid" id="carscf">
+        <div class="row">
+            <div class="col-12 col-md-4" id="Group1">
+                <img src="CAR 2 1.png" id="cars">
+                    <div class="row">
+                        <div class="col-7 text-center" id="cartext1">
+                            Lamborghini
+                        </div>
+                    </div>
+            </div>
+            
+            <div class="col-12 col-md-4" id="Group2">
+                <img src="Mercedes-Benz s class 560 coupe 1.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext1">
+                        Mercedes-Benz
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4" id="Group1">
+                <img src="FERRARI 1.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext1" class="ferrari">
+                        Ferrari
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-0 mt-md-5" id="Group2">
+                <img src="Rolls Royce 1.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext2">
+                        Rolls-Royce
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-0 mt-md-5" id="Group1">
+                <img src="AUDI 1.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext2">
+                        Audi
+                    </div>
+                </div>
+            </div>   
+            <div class="col-12 col-md-4 mt-0 mt-md-5" id="Group2">
+                <img src="BMW 18 1.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext2">
+                        BMW
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-0 mt-md-5"  id="Group1">
+                <img src="Lexus.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext3">
+                        Lexus
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-0 mt-md-5" id="Group2">
+                <img src="Hyundai.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext3">
+                        Hyundai
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-0 mt-md-5" id="Group1">
+                <img src="CHEVROLET.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext3" >
+                       Chevloret
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-0 mt-md-5" id="Group2">
+                <img src="Toyota.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext3" >
+                       Toyota
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-0 mt-md-5" id="Group1"   >
+                <img src="TESLA CAR.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext3">
+                        Tesla
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-0 mt-md-5" id="Group2">
+                <img src="Ford Car.png" id="cars">
+                <div class="row">
+                    <div class="col-7 text-center" id="cartext3">
+                        Ford
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <nav class="container-fluid navbar navbar-expand mt-5 justify-content-center" id="carnav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <img src="whatsapp.png" alt="" id="icons">
+            </li>
+            <li class="nav-item">
+                <img src="facebook.png" alt="" id="icons">
+            </li>
+            <li class="nav-item">
+                <img src="INSTAGRAM ICON.png" alt="" id="icons">
+            </li>
+        </ul>
+    </nav>
+      <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+</head>
+<body id="bd">
+    <nav class="container-fluid navbar navbar-expand-sm navbar-light" id="nav">
+      <div class="col-3 ml-3 mb-md-5">
+        <img src="logo.png" class="navbar-brand">
+    </div>
+      <button class="navbar-toggler" data-toggle="collapse" data-target="#GrandPix">
+        <span class="navbar-toggler-icon" id="toggle" onclick="toggle()"></span>
+      </button>
+      <div class="collapse navbar-collapse mt-5" id="GrandPix" >
+        <ul class="navbar-nav">
+            <li class="nav-item col-3">
+              <form action="home.html">
+                <button type="submit" class="nav-link text-dark"   id="navitem1"  onclick="nav1()"><span id="text1" class="text">Home</span></button>
+              </form>
+            </li>
+            <li class="nav-item col-3">
+                <form action="cars.html">
+                  <button type="submit" class="nav-link text-dark" id="navitem2" onclick="nav2()"><span id="text2" class="text">Cars</span></button>
+                </form>
+              
+            </li>
+            <li class="nav-item col-3">
+              <button type="button" class="nav-link text-dark"  id="navitem3"  onclick="nav3()"><span id="text3" class="text">Models</span></button>
+            </li>
+            <li class="nav-item col-3">
+              <button type="button" class="nav-link text-dark"  id="navitem4"  onclick="nav4()"><span id="text4" class="text">Purchase</span></button>
+            </li>
+            <li class="nav-item col-3">
+              <button type="button" class="nav-link text-dark"  id="navitem5"  onclick="nav5()"><span id="text5" class="text">About Us</span></button>
+              </li>
+          </ul>
+        </div>
+    </nav>
+
+    
+
+    <span id="bd2">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-7 ml-4 mt-5" id="text6">
+          Buy Your Very Own Car
+        </div>
+        <div class="col mt-md-5">
+          <img src="AUDI 1.png"  id="Img1">
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid" id="carCf">
+      <div class="row">
+        <div class="col-6 ml-3" id="text7">
+          This online car buying site helps in search of multiple cars, both models and brands. <br>
+          <br>We are also in partnership with other high quality car companies globally with the same motive and offer high quality services including a 30% discount every two months.
+        </div>
+        <div class="col mt-md-5">
+          <img src="BMW CAR 1.png"  id="Img2">
+        </div>
+      </div>
+      <div class="row">
+       <div class="col-2 mt-4 mt-md-0 text-light">
+        <button onclick="GetStarted()" id="text8"> Get Started</button>
+        </div>
+       
+      </div>
+    </div>
+
+    <nav class="container navbar navbar-expand-sm mt-5 ml-md-5" id="carlogo">
+      <ul class="navbar-nav">
+        <li class="nav-item col-3">
+         <img src="Ford 1.png" alt="" id="nav-img">
+        </li>
+        <li class="nav-item col-3">
+          <img src="Audi logo 1.png" alt="" id="nav-img">
+        </li>
+        <li class="nav-item col-3">
+          <img src="LAMBO 1.png" alt="" id="nav-img">
+        </li>
+        <li class="nav-item col-3">
+          <img src="FERRARI LOGO 1.png" alt="" id="nav-img">
+        </li>
+        <li class="nav-item col-3">
+          <img src="Bugatti 1.png" alt="" id="nav-img">          
+        </li>
+        <li class="nav-item col-3">
+          <img src="CHEVROLET 1.png" alt="" id="nav-img">          
+        </li>
+        <li class="nav-item col-3">
+          <img src="Tesla 1.png" alt="" id="nav-img">          
+        </li>
+      </ul>
+    </nav>
+  </span>
+    <form action="cars.html">
+      <div id="main-div">
+          <div class="sub-div"></div>
+          <div>
+              <input type="text" placeholder="First Name" class="form1">
+          </div>
+          <div>
+              <input type="text" placeholder="Last Name" class="form2">
+          </div>
+          <div>
+              <input type="email" placeholder="Email Address" class="form3">
+          </div>
+          <div>
+              <input type="password" placeholder="Password" class="form4">
+          </div>
+          <button type="submit" class="login">Login</button>
+          <button type="button" class="signup">Sign Up</button>
+      </div>
+  </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
